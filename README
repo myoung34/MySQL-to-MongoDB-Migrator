@@ -1,0 +1,4 @@
+MySQL To MongoDB Migrator
+  -This script uses Perl::DBI to serialize a MySQL database into a MongoDB javascript friendly file
+  - example call: perl mysql_to_mongo.pl -db somedatabase -user root
+  - Dependencies: perl, DBI,File::Slurp,Getopt::Long
